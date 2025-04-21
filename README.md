@@ -1,7 +1,7 @@
 
-### NAME: PRASIDHA A
+### NAME: MADHUMITHA R
 
-### REGISTER NUMBER: 212224230204
+### REGISTER NUMBER: 212224240082
 
 ### EXPERIMENT-3-IMPLEMENTAION OF HALF ADDER AND SUBTRACTOR
 
@@ -54,22 +54,23 @@ Figure -02 HALF Subtractor
 
 
 **PROGRAM:**
-
-![ex3program](https://github.com/user-attachments/assets/909a5100-4ea7-4709-949a-9df9a83c8ba4)!
-
-**LOGIC DIAGRAM:**
-
-![exp3logicdiagram](https://github.com/user-attachments/assets/49e8054d-508b-4561-83d9-05fabf131c13)
-
-
-
-
+~~~
+module exp3(a,b,C,D,S,B);
+input a,b;
+output C,D,S,B;
+assign S=a^b;
+assign C=a&b;
+assign D=a^b;
+assign B=~a&b;
+endmodule
+~~~
 **RTL Schematic**
+![Screenshot 2025-04-21 143821](https://github.com/user-attachments/assets/5d1381c9-b3d3-4a4c-8c6f-9d8cfd5b312e)
 
 **TIMING DIAGRAM:**
 
-![ex3waveform](https://github.com/user-attachments/assets/42a369eb-1487-41ff-baf9-bc9c15d0ef04)
 
+![Screenshot 2025-04-21 143955](https://github.com/user-attachments/assets/6b473845-1a2a-4b07-bbb4-1debe7c13da0)
 
 **RESULT:**
 
